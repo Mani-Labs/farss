@@ -1,0 +1,40 @@
+2025-04-26 22:25:45,120 [INFO] farsiland_scraper: === Farsiland Scraper Execution Mode ===
+2025-04-26 22:25:45,120 [INFO] farsiland_scraper: Data Source:   API-first with HTML fallback
+2025-04-26 22:25:45,121 [INFO] farsiland_scraper: URL Source:    Default crawl URLs
+2025-04-26 22:25:45,121 [INFO] farsiland_scraper: Sitemap Only:  No - will fetch pages
+2025-04-26 22:25:45,121 [INFO] farsiland_scraper: RSS Enabled:   No
+2025-04-26 22:25:45,122 [INFO] farsiland_scraper: Daemon Mode:   No
+2025-04-26 22:25:45,122 [INFO] farsiland_scraper: Force Refresh: No
+2025-04-26 22:25:45,122 [INFO] farsiland_scraper: Max Items:     20000
+2025-04-26 22:25:45,122 [INFO] farsiland_scraper: Spiders:       all
+2025-04-26 22:25:45,139 [ERROR] farsiland_scraper: Unhandled exception in main: 'ScrapeManager' object has no attribute 'modified_after'
+Traceback (most recent call last):
+  File "G:\Farsiland_Scraper\farsiland_scraper\run.py", line 1429, in main
+    manager = ScrapeManager(args)
+              ^^^^^^^^^^^^^^^^^^^
+  File "G:\Farsiland_Scraper\farsiland_scraper\run.py", line 105, in __init__
+    self._log_execution_mode()
+  File "G:\Farsiland_Scraper\farsiland_scraper\run.py", line 295, in _log_execution_mode
+    if self.modified_after:
+       ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ScrapeManager' object has no attribute 'modified_after'
+2025-04-26 22:32:51,481 [INFO] farsiland_scraper: === Farsiland Scraper Execution Mode ===
+2025-04-26 22:32:51,481 [INFO] farsiland_scraper: Data Source:   API-first with HTML fallback
+2025-04-26 22:32:51,482 [INFO] farsiland_scraper: URL Source:    Default crawl URLs
+2025-04-26 22:32:51,482 [INFO] farsiland_scraper: Sitemap Only:  No - will fetch pages
+2025-04-26 22:32:51,483 [INFO] farsiland_scraper: RSS Enabled:   No
+2025-04-26 22:32:51,483 [INFO] farsiland_scraper: Daemon Mode:   No
+2025-04-26 22:32:51,483 [INFO] farsiland_scraper: Force Refresh: No
+2025-04-26 22:32:51,483 [INFO] farsiland_scraper: Max Items:     20000
+2025-04-26 22:32:51,484 [INFO] farsiland_scraper: Spiders:       all
+2025-04-26 22:32:51,484 [ERROR] farsiland_scraper: Unhandled exception in main: 'ScrapeManager' object has no attribute 'modified_after'
+Traceback (most recent call last):
+  File "G:\Farsiland_Scraper\farsiland_scraper\run.py", line 1429, in main
+    manager = ScrapeManager(args)
+              ^^^^^^^^^^^^^^^^^^^
+  File "G:\Farsiland_Scraper\farsiland_scraper\run.py", line 105, in __init__
+    self._log_execution_mode()
+  File "G:\Farsiland_Scraper\farsiland_scraper\run.py", line 295, in _log_execution_mode
+    if self.modified_after:
+       ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ScrapeManager' object has no attribute 'modified_after'

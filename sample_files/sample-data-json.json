@@ -1,0 +1,270 @@
+{
+  "metadata": {
+    "exported_at": "2025-05-01T08:30:45",
+    "version": "5.0.0",
+    "shows_count": 150,
+    "movies_count": 275,
+    "episodes_count": 820
+  },
+  "movies": [
+    {
+      "id": 1001,
+      "url": "https://farsiland.com/movies/movie-title-1",
+      "title_en": "The Amazing Journey",
+      "title_fa": "سفر شگفت انگیز",
+      "poster": "https://farsiland.com/wp-content/uploads/posters/amazing-journey.jpg",
+      "description": "A thrilling adventure about a family's journey across the world.",
+      "release_date": "2024-02-15",
+      "year": 2024,
+      "rating": 8.5,
+      "rating_count": 1250,
+      "genres": ["Adventure", "Family", "Drama"],
+      "directors": ["Jane Smith"],
+      "cast": ["John Actor", "Sarah Performer", "David Star"],
+      "social_shares": 326,
+      "comments_count": 184,
+      "language_code": "fa",
+      "video_files": [
+        {
+          "quality": "1080",
+          "url": "https://farsiland.com/videos/amazing-journey-1080p.mp4",
+          "mirror_url": "https://flnd.buzz/videos/amazing-journey-1080p.mp4",
+          "size": "2.3 GB"
+        },
+        {
+          "quality": "720",
+          "url": "https://farsiland.com/videos/amazing-journey-720p.mp4",
+          "mirror_url": "https://flnd.buzz/videos/amazing-journey-720p.mp4",
+          "size": "1.2 GB"
+        },
+        {
+          "quality": "480",
+          "url": "https://farsiland.com/videos/amazing-journey-480p.mp4",
+          "mirror_url": "https://flnd.buzz/videos/amazing-journey-480p.mp4",
+          "size": "650 MB"
+        }
+      ]
+    },
+    {
+      "id": 1002,
+      "url": "https://farsiland.com/movies/movie-title-2",
+      "title_en": "Midnight Mystery",
+      "title_fa": "راز نیمه شب",
+      "poster": "https://farsiland.com/wp-content/uploads/posters/midnight-mystery.jpg",
+      "description": "A detective must solve a perplexing case before dawn.",
+      "release_date": "2023-11-02",
+      "year": 2023,
+      "rating": 7.8,
+      "rating_count": 832,
+      "genres": ["Mystery", "Thriller", "Crime"],
+      "directors": ["Michael Director"],
+      "cast": ["Emma Detective", "James Suspect", "Anna Witness"],
+      "social_shares": 213,
+      "comments_count": 95,
+      "language_code": "fa",
+      "video_files": [
+        {
+          "quality": "1080",
+          "url": "https://farsiland.com/videos/midnight-mystery-1080p.mp4",
+          "mirror_url": "https://flnd.buzz/videos/midnight-mystery-1080p.mp4",
+          "size": "1.8 GB"
+        },
+        {
+          "quality": "720",
+          "url": "https://farsiland.com/videos/midnight-mystery-720p.mp4",
+          "mirror_url": "https://flnd.buzz/videos/midnight-mystery-720p.mp4",
+          "size": "950 MB"
+        }
+      ]
+    }
+  ],
+  "shows": [
+    {
+      "id": 2001,
+      "url": "https://farsiland.com/tvshows/show-title-1",
+      "title_en": "Garden of Dreams",
+      "title_fa": "باغ رویاها",
+      "poster": "https://farsiland.com/wp-content/uploads/posters/garden-dreams.jpg",
+      "description": "A magical series about a garden where dreams come true.",
+      "first_air_date": "2023-05-10",
+      "last_aired": "2024-03-15",
+      "rating": 9.2,
+      "rating_count": 2341,
+      "season_count": 2,
+      "episode_count": 16,
+      "genres": ["Fantasy", "Drama", "Family"],
+      "directors": ["Lisa Creator"],
+      "cast": ["Tom Main", "Jessica Supporting", "Kevin Recurring"],
+      "social_shares": 542,
+      "comments_count": 367,
+      "language_code": "fa",
+      "seasons": [
+        {
+          "season_number": 1,
+          "title": "Season 1",
+          "episode_count": 8,
+          "episodes": [
+            {
+              "episode_number": 1,
+              "title": "The Beginning",
+              "date": "2023-05-10",
+              "url": "https://farsiland.com/episodes/garden-dreams-s01e01",
+              "thumbnail": "https://farsiland.com/wp-content/uploads/thumbs/garden-dreams-s01e01.jpg",
+              "video_files": [
+                {
+                  "quality": "1080",
+                  "url": "https://farsiland.com/videos/garden-dreams-s01e01-1080p.mp4",
+                  "mirror_url": "https://flnd.buzz/videos/garden-dreams-s01e01-1080p.mp4",
+                  "size": "1.5 GB"
+                },
+                {
+                  "quality": "720",
+                  "url": "https://farsiland.com/videos/garden-dreams-s01e01-720p.mp4",
+                  "mirror_url": "https://flnd.buzz/videos/garden-dreams-s01e01-720p.mp4",
+                  "size": "800 MB"
+                }
+              ]
+            },
+            {
+              "episode_number": 2,
+              "title": "The Discovery",
+              "date": "2023-05-17",
+              "url": "https://farsiland.com/episodes/garden-dreams-s01e02",
+              "thumbnail": "https://farsiland.com/wp-content/uploads/thumbs/garden-dreams-s01e02.jpg",
+              "video_files": [
+                {
+                  "quality": "1080",
+                  "url": "https://farsiland.com/videos/garden-dreams-s01e02-1080p.mp4",
+                  "mirror_url": "https://flnd.buzz/videos/garden-dreams-s01e02-1080p.mp4",
+                  "size": "1.6 GB"
+                },
+                {
+                  "quality": "720",
+                  "url": "https://farsiland.com/videos/garden-dreams-s01e02-720p.mp4",
+                  "mirror_url": "https://flnd.buzz/videos/garden-dreams-s01e02-720p.mp4",
+                  "size": "850 MB"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "season_number": 2,
+          "title": "Season 2",
+          "episode_count": 8,
+          "episodes": [
+            {
+              "episode_number": 1,
+              "title": "New Beginnings",
+              "date": "2024-01-20",
+              "url": "https://farsiland.com/episodes/garden-dreams-s02e01",
+              "thumbnail": "https://farsiland.com/wp-content/uploads/thumbs/garden-dreams-s02e01.jpg",
+              "video_files": [
+                {
+                  "quality": "1080",
+                  "url": "https://farsiland.com/videos/garden-dreams-s02e01-1080p.mp4",
+                  "mirror_url": "https://flnd.buzz/videos/garden-dreams-s02e01-1080p.mp4",
+                  "size": "1.7 GB"
+                },
+                {
+                  "quality": "720",
+                  "url": "https://farsiland.com/videos/garden-dreams-s02e01-720p.mp4",
+                  "mirror_url": "https://flnd.buzz/videos/garden-dreams-s02e01-720p.mp4",
+                  "size": "900 MB"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2002,
+      "url": "https://farsiland.com/tvshows/show-title-2",
+      "title_en": "Legal Frontiers",
+      "title_fa": "مرزهای قانونی",
+      "poster": "https://farsiland.com/wp-content/uploads/posters/legal-frontiers.jpg",
+      "description": "A gripping drama about lawyers pushing the boundaries of justice.",
+      "first_air_date": "2022-09-05",
+      "last_aired": "2024-01-22",
+      "rating": 8.7,
+      "rating_count": 1756,
+      "season_count": 2,
+      "episode_count": 20,
+      "genres": ["Drama", "Legal", "Thriller"],
+      "directors": ["Robert Showrunner"],
+      "cast": ["Mark Lawyer", "Linda Judge", "Paul Defendant"],
+      "social_shares": 428,
+      "comments_count": 295,
+      "language_code": "fa",
+      "seasons": [
+        {
+          "season_number": 1,
+          "title": "Season 1",
+          "episode_count": 10,
+          "episodes": []
+        },
+        {
+          "season_number": 2,
+          "title": "Season 2",
+          "episode_count": 10,
+          "episodes": []
+        }
+      ]
+    }
+  ],
+  "episodes": [
+    {
+      "id": 3001,
+      "url": "https://farsiland.com/episodes/garden-dreams-s01e01",
+      "show_url": "https://farsiland.com/tvshows/show-title-1",
+      "show_id": 2001,
+      "season_number": 1,
+      "episode_number": 1,
+      "title": "The Beginning",
+      "air_date": "2023-05-10",
+      "thumbnail": "https://farsiland.com/wp-content/uploads/thumbs/garden-dreams-s01e01.jpg",
+      "language_code": "fa",
+      "video_files": [
+        {
+          "quality": "1080",
+          "url": "https://farsiland.com/videos/garden-dreams-s01e01-1080p.mp4",
+          "mirror_url": "https://flnd.buzz/videos/garden-dreams-s01e01-1080p.mp4",
+          "size": "1.5 GB"
+        },
+        {
+          "quality": "720",
+          "url": "https://farsiland.com/videos/garden-dreams-s01e01-720p.mp4",
+          "mirror_url": "https://flnd.buzz/videos/garden-dreams-s01e01-720p.mp4",
+          "size": "800 MB"
+        }
+      ]
+    },
+    {
+      "id": 3002,
+      "url": "https://farsiland.com/episodes/garden-dreams-s01e02",
+      "show_url": "https://farsiland.com/tvshows/show-title-1",
+      "show_id": 2001,
+      "season_number": 1,
+      "episode_number": 2,
+      "title": "The Discovery",
+      "air_date": "2023-05-17",
+      "thumbnail": "https://farsiland.com/wp-content/uploads/thumbs/garden-dreams-s01e02.jpg",
+      "language_code": "fa",
+      "video_files": [
+        {
+          "quality": "1080",
+          "url": "https://farsiland.com/videos/garden-dreams-s01e02-1080p.mp4",
+          "mirror_url": "https://flnd.buzz/videos/garden-dreams-s01e02-1080p.mp4",
+          "size": "1.6 GB"
+        },
+        {
+          "quality": "720",
+          "url": "https://farsiland.com/videos/garden-dreams-s01e02-720p.mp4",
+          "mirror_url": "https://flnd.buzz/videos/garden-dreams-s01e02-720p.mp4",
+          "size": "850 MB"
+        }
+      ]
+    }
+  ]
+}

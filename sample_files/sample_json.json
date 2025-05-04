@@ -1,0 +1,143 @@
+{
+  "metadata": {
+    "exported_at": "2025-05-24T10:15:30Z",
+    "version": "4.1.0"
+  },
+  "shows_count": 2,
+  "episodes_count": 3,
+  "movies_count": 1,
+  "shows": [
+    {
+      "id": 1,
+      "url": "https://farsiland.com/tvshows/sample-show/",
+      "sitemap_url": "https://farsiland.com/tvshows/sample-show/",
+      "title_en": "Sample Show",
+      "title_fa": "نمونه سریال",
+      "poster": "https://farsiland.com/wp-content/uploads/2023/05/sample-show-poster.jpg",
+      "description": "A sample TV show for testing purposes.",
+      "first_air_date": "2023-05-01",
+      "rating": 8.5,
+      "rating_count": 150,
+      "season_count": 2,
+      "episode_count": 2,
+      "genres": ["Comedy", "Drama"],
+      "directors": ["John Doe", "Jane Smith"],
+      "cast": ["Actor One", "Actor Two", "Actor Three"],
+      "social_shares": 120,
+      "comments_count": 45,
+      "seasons": [
+        {
+          "season_number": 1,
+          "title": "Season 1",
+          "episode_count": 2,
+          "episodes": [
+            {
+              "episode_number": 1,
+              "title": "Pilot",
+              "date": "2023-05-01",
+              "url": "https://farsiland.com/episodes/sample-show-se01-ep01/",
+              "thumbnail": "https://farsiland.com/wp-content/uploads/2023/05/s01e01.jpg"
+            },
+            {
+              "episode_number": 2,
+              "title": "Second Episode",
+              "date": "2023-05-08",
+              "url": "https://farsiland.com/episodes/sample-show-se01-ep02/",
+              "thumbnail": "https://farsiland.com/wp-content/uploads/2023/05/s01e02.jpg"
+            }
+          ]
+        }
+      ],
+      "episode_urls": [
+        "https://farsiland.com/episodes/sample-show-se01-ep01/",
+        "https://farsiland.com/episodes/sample-show-se01-ep02/"
+      ],
+      "is_new": 1,
+      "lastmod": "2025-04-10T08:15:30+00:00",
+      "last_scraped": "2025-05-24T10:15:30Z",
+      "cached_at": "2025-05-24T10:15:30Z",
+      "source": "api",
+      "api_id": 12345,
+      "api_source": "wp-json/v2",
+      "modified_gmt": "2025-04-10T08:15:30"
+    }
+  ],
+  "episodes": [
+    {
+      "id": 1,
+      "url": "https://farsiland.com/episodes/sample-show-se01-ep01/",
+      "sitemap_url": "https://farsiland.com/episodes/sample-show-se01-ep01/",
+      "show_url": "https://farsiland.com/tvshows/sample-show/",
+      "season_number": 1,
+      "episode_number": 1,
+      "title": "Sample Show S01E01: Pilot",
+      "air_date": "2023-05-01",
+      "thumbnail": "https://farsiland.com/wp-content/uploads/2023/05/s01e01.jpg",
+      "video_files": [
+        {
+          "quality": "720",
+          "size": "500 MB",
+          "url": "https://farsiland.com/path/to/video-720p.mp4",
+          "mirror_url": "https://mirror.farsiland.com/path/to/video-720p.mp4"
+        },
+        {
+          "quality": "1080",
+          "size": "1.2 GB",
+          "url": "https://farsiland.com/path/to/video-1080p.mp4",
+          "mirror_url": null
+        }
+      ],
+      "is_new": 1,
+      "lastmod": "2025-04-10T08:20:15+00:00",
+      "last_scraped": "2025-05-24T10:15:30Z",
+      "cached_at": "2025-05-24T10:15:30Z",
+      "source": "api",
+      "api_id": 67890,
+      "api_source": "wp-json/v2",
+      "modified_gmt": "2025-04-10T08:20:15",
+      "show_id": 12345
+    }
+  ],
+  "movies": [
+    {
+      "id": 1,
+      "url": "https://farsiland.com/movies/sample-movie/",
+      "sitemap_url": "https://farsiland.com/movies/sample-movie/",
+      "title_en": "Sample Movie",
+      "title_fa": "نمونه فیلم",
+      "poster": "https://farsiland.com/wp-content/uploads/2023/05/sample-movie-poster.jpg",
+      "description": "A sample movie for testing purposes.",
+      "release_date": "2023-01-15",
+      "year": 2023,
+      "rating": 7.8,
+      "rating_count": 85,
+      "genres": ["Action", "Thriller"],
+      "directors": ["Director One"],
+      "cast": ["Actor One", "Actor Two", "Actor Three"],
+      "social_shares": 75,
+      "comments_count": 30,
+      "video_files": [
+        {
+          "quality": "720",
+          "size": "800 MB",
+          "url": "https://farsiland.com/path/to/movie-720p.mp4",
+          "mirror_url": null
+        },
+        {
+          "quality": "1080",
+          "size": "2.1 GB",
+          "url": "https://farsiland.com/path/to/movie-1080p.mp4",
+          "mirror_url": "https://mirror.farsiland.com/path/to/movie-1080p.mp4"
+        }
+      ],
+      "is_new": 1,
+      "lastmod": "2025-03-20T14:30:45+00:00",
+      "last_scraped": "2025-05-24T10:15:30Z",
+      "cached_at": "2025-05-24T10:15:30Z",
+      "source": "api",
+      "api_id": 54321,
+      "api_source": "wp-json/v2",
+      "modified_gmt": "2025-03-20T14:30:45"
+    }
+  ]
+}

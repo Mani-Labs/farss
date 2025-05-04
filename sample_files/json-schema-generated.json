@@ -1,0 +1,528 @@
+{
+	"type": "object",
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"description": "JSON schema generated with JSONBuddy https://www.json-buddy.com",
+	"properties": {
+		"episodes": {
+			"type": "array",
+			"items": {
+				"oneOf": [
+					{
+						"type": "object",
+						"properties": {
+							"air_date": {
+								"type": "string"
+							},
+							"api_id": {
+								"type": [ "integer", "null" ]
+							},
+							"api_source": {
+								"type": [ "string", "null" ]
+							},
+							"cached_at": {
+								"type": "null"
+							},
+							"description": {
+								"type": "null"
+							},
+							"episode_number": {
+								"type": "integer"
+							},
+							"id": {
+								"type": "integer"
+							},
+							"is_modified": {
+								"type": "integer"
+							},
+							"is_new": {
+								"type": "integer"
+							},
+							"language_code": {
+								"type": "string"
+							},
+							"last_scraped": {
+								"type": "string"
+							},
+							"lastmod": {
+								"type": "string"
+							},
+							"modified_gmt": {
+								"type": "null"
+							},
+							"season_number": {
+								"type": "integer"
+							},
+							"show_id": {
+								"type": [ "integer", "null" ]
+							},
+							"show_url": {
+								"type": "string"
+							},
+							"sitemap_url": {
+								"type": "string"
+							},
+							"source": {
+								"type": "null"
+							},
+							"thumbnail": {
+								"type": "string"
+							},
+							"title": {
+								"type": "string"
+							},
+							"url": {
+								"type": "string"
+							},
+							"video_files": {
+								"type": "array",
+								"items": {
+									"oneOf": [
+										{
+											"type": "object",
+											"properties": {
+												"mirror_url": {
+													"type": "string"
+												},
+												"quality": {
+													"type": "string"
+												},
+												"size": {
+													"type": "string"
+												},
+												"url": {
+													"type": "string"
+												}
+											}
+										}
+									]
+								}
+							}
+						}
+					}
+				]
+			}
+		},
+		"episodes_count": {
+			"type": "integer"
+		},
+		"metadata": {
+			"type": "object",
+			"properties": {
+				"exported_at": {
+					"type": "string"
+				},
+				"version": {
+					"type": "string"
+				}
+			}
+		},
+		"movies": {
+			"type": "array",
+			"items": {
+				"oneOf": [
+					{
+						"type": "object",
+						"properties": {
+							"api_id": {
+								"type": [ "integer", "null" ]
+							},
+							"api_source": {
+								"type": [ "string", "null" ]
+							},
+							"cached_at": {
+								"type": "null"
+							},
+							"cast": {
+								"type": "array",
+								"items": {
+									"oneOf": [ { "type": "string" } ]
+								}
+							},
+							"comments_count": {
+								"type": "null"
+							},
+							"description": {
+								"type": [ "string", "null" ]
+							},
+							"directors": {
+								"type": "array",
+								"items": {
+									"oneOf": [ { "type": "string" } ]
+								}
+							},
+							"genres": {
+								"type": "array",
+								"items": {
+									"oneOf": [ { "type": "string" } ]
+								}
+							},
+							"id": {
+								"type": "integer"
+							},
+							"is_new": {
+								"type": "integer"
+							},
+							"language_code": {
+								"type": "string"
+							},
+							"last_scraped": {
+								"type": "string"
+							},
+							"lastmod": {
+								"type": "string"
+							},
+							"modified_gmt": {
+								"type": [ "string", "null" ]
+							},
+							"poster": {
+								"type": [ "string", "null" ]
+							},
+							"rating": {
+								"type": [ "number", "null" ]
+							},
+							"rating_count": {
+								"type": [ "integer", "null" ]
+							},
+							"release_date": {
+								"type": [ "string", "null" ]
+							},
+							"sitemap_url": {
+								"type": "string"
+							},
+							"social_shares": {
+								"type": [ "integer", "null" ]
+							},
+							"source": {
+								"type": "null"
+							},
+							"title_en": {
+								"type": "string"
+							},
+							"title_fa": {
+								"type": [ "string", "null" ]
+							},
+							"url": {
+								"type": "string"
+							},
+							"video_files": {
+								"type": "array",
+								"items": {
+									"oneOf": [
+										{
+											"type": "object",
+											"properties": {
+												"mirror_url": {
+													"type": "string"
+												},
+												"quality": {
+													"type": "string"
+												},
+												"size": {
+													"type": "string"
+												},
+												"url": {
+													"type": "string"
+												}
+											}
+										}
+									]
+								}
+							},
+							"year": {
+								"type": [ "integer", "null" ]
+							}
+						}
+					}
+				]
+			}
+		},
+		"movies_count": {
+			"type": "integer"
+		},
+		"shows": {
+			"type": "array",
+			"items": {
+				"oneOf": [
+					{
+						"type": "object",
+						"properties": {
+							"api_id": {
+								"type": [ "integer", "null" ]
+							},
+							"api_source": {
+								"type": [ "string", "null" ]
+							},
+							"cached_at": {
+								"type": "null"
+							},
+							"cast": {
+								"type": [ "array", "null" ],
+								"items": {
+									"oneOf": [ { "type": "string" } ]
+								}
+							},
+							"comments_count": {
+								"type": "null"
+							},
+							"description": {
+								"type": [ "string", "null" ]
+							},
+							"directors": {
+								"type": [ "array", "null" ],
+								"items": {
+									"oneOf": [ { "type": "string" } ]
+								}
+							},
+							"episode_count": {
+								"type": "integer"
+							},
+							"episode_urls": {
+								"type": [ "string", "null" ]
+							},
+							"first_air_date": {
+								"type": [ "string", "null" ]
+							},
+							"full_episodes": {
+								"type": "array",
+								"items": {
+									"oneOf": [
+										{
+											"type": "object",
+											"properties": {
+												"air_date": {
+													"type": "string"
+												},
+												"api_id": {
+													"type": [ "integer", "null" ]
+												},
+												"api_source": {
+													"type": [ "string", "null" ]
+												},
+												"cached_at": {
+													"type": "null"
+												},
+												"description": {
+													"type": "null"
+												},
+												"episode_number": {
+													"type": "integer"
+												},
+												"id": {
+													"type": "integer"
+												},
+												"is_modified": {
+													"type": "integer"
+												},
+												"is_new": {
+													"type": "integer"
+												},
+												"language_code": {
+													"type": "string"
+												},
+												"last_scraped": {
+													"type": "string"
+												},
+												"lastmod": {
+													"type": "string"
+												},
+												"modified_gmt": {
+													"type": "null"
+												},
+												"season_number": {
+													"type": "integer"
+												},
+												"show_id": {
+													"type": [ "integer", "null" ]
+												},
+												"show_url": {
+													"type": "string"
+												},
+												"sitemap_url": {
+													"type": "string"
+												},
+												"source": {
+													"type": "null"
+												},
+												"thumbnail": {
+													"type": "string"
+												},
+												"title": {
+													"type": "string"
+												},
+												"url": {
+													"type": "string"
+												},
+												"video_files": {
+													"type": "array",
+													"items": {
+														"oneOf": [
+															{
+																"type": "object",
+																"properties": {
+																	"mirror_url": {
+																		"type": "string"
+																	},
+																	"quality": {
+																		"type": "string"
+																	},
+																	"size": {
+																		"type": "string"
+																	},
+																	"url": {
+																		"type": "string"
+																	}
+																}
+															}
+														]
+													}
+												}
+											}
+										}
+									]
+								}
+							},
+							"genres": {
+								"type": [ "array", "null" ],
+								"items": {
+									"oneOf": [ { "type": "string" } ]
+								}
+							},
+							"id": {
+								"type": "integer"
+							},
+							"is_modified": {
+								"type": "integer"
+							},
+							"is_new": {
+								"type": "integer"
+							},
+							"language_code": {
+								"type": "string"
+							},
+							"last_aired": {
+								"type": "null"
+							},
+							"last_scraped": {
+								"type": [ "string", "null" ]
+							},
+							"lastmod": {
+								"type": [ "string", "null" ]
+							},
+							"modified_gmt": {
+								"type": "null"
+							},
+							"poster": {
+								"type": [ "string", "null" ]
+							},
+							"rating": {
+								"type": [ "number", "null" ]
+							},
+							"rating_count": {
+								"type": [ "integer", "null" ]
+							},
+							"season_count": {
+								"type": [ "integer", "null" ]
+							},
+							"seasons": {
+								"type": "array",
+								"items": {
+									"oneOf": [
+										{
+											"type": "object",
+											"properties": {
+												"episode_count": {
+													"type": "integer"
+												},
+												"episodes": {
+													"type": "array",
+													"items": {
+														"oneOf": [
+															{
+																"type": "object",
+																"properties": {
+																	"date": {
+																		"type": "string"
+																	},
+																	"episode_number": {
+																		"type": "integer"
+																	},
+																	"lastmod": {
+																		"type": "string"
+																	},
+																	"thumbnail": {
+																		"type": "string"
+																	},
+																	"title": {
+																		"type": "string"
+																	},
+																	"url": {
+																		"type": "string"
+																	},
+																	"video_files": {
+																		"type": "array",
+																		"items": {
+																			"oneOf": [
+																				{
+																					"type": "object",
+																					"properties": {
+																						"mirror_url": {
+																							"type": "string"
+																						},
+																						"quality": {
+																							"type": "string"
+																						},
+																						"size": {
+																							"type": "string"
+																						},
+																						"url": {
+																							"type": "string"
+																						}
+																					}
+																				}
+																			]
+																		}
+																	}
+																}
+															}
+														]
+													}
+												},
+												"season_number": {
+													"type": "integer"
+												},
+												"title": {
+													"type": "string"
+												}
+											}
+										}
+									]
+								}
+							},
+							"sitemap_url": {
+								"type": [ "string", "null" ]
+							},
+							"social_shares": {
+								"type": "null"
+							},
+							"source": {
+								"type": "null"
+							},
+							"title_en": {
+								"type": [ "string", "null" ]
+							},
+							"title_fa": {
+								"type": [ "string", "null" ]
+							},
+							"url": {
+								"type": "string"
+							}
+						}
+					}
+				]
+			}
+		},
+		"shows_count": {
+			"type": "integer"
+		}
+	}
+}
